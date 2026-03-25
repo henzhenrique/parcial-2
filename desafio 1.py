@@ -1,10 +1,10 @@
-import random
+numero1 = input("Digite o primeiro número: ")
 
-num1 = random.randint(1, 100)
-num2 = random.randint(1, 100)
+numero2 = input("Digite o segundo número: ")
 
-soma = num1 + num2
+numero1 = float(numero1)
+numero2 = float(numero2)
 
-print(f"Número 1: {num1}")
-print(f"Número 2: {num2}")
-print(f"Soma: {soma}")
+soma = numero1 + numero2
+
+print("A soma dos números é:", soma)
