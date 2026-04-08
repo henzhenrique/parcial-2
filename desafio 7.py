@@ -7,7 +7,7 @@ def calcular_juros(principal, taxa_juros, tempo):
 # Entrada de dados
 principal = float(input("Valor principal (em R$): "))
 taxa_juros = float(input("Taxa de juros (% ao mês): ")) / 100  # Convertendo para decimal
-tempo = float(input("Tempo (em meses): "))
+tempo = float(input("Tempo (em meses): "))#formula para juros simples
 
 # Cálculo
 juros, montante = calcular_juros(principal, taxa_juros, tempo)
